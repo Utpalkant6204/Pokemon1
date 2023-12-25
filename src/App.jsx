@@ -9,7 +9,6 @@ function App()
   const[pokemon,setPokemon] = useState([]);
   const [selectedPokemon, setSelectedPokemon] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const [filteredPokemon, setFilteredPokemon] = useState([]);
 
   useEffect(()=>{
     const fetchData = async() => {
